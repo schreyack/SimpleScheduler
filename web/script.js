@@ -3,7 +3,7 @@ $(document).ready(function() {
 		"dom": "t",
         "paging":   false,
 		"bStateSave": false,
-		"aSorting": [[1, "desc" ]],
+		"aSorting": [[2, "asc" ]],
         "ordering": true,
 		"aoColumnDefs": [
 			{ "bSortable": false , "aTargets": [ 0,3,5,6 ] },
