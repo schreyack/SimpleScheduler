@@ -2,7 +2,7 @@ $(document).ready(function() {
     $('#dtable').DataTable( {
 		"dom": "t",
         "paging":   false,
-		"bStateSave": false,
+		"bStateSave": true,
 		"aSorting": [[2, "asc" ]],
         "ordering": true,
 		"aoColumnDefs": [
